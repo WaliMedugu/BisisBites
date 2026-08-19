@@ -71,17 +71,17 @@ const FlavorTitle = () => {
     return (
         <div className="general-title col-center h-full 2xl:gap-8 xl:gap-6 gap-5">
             <div className="overflow-hidden 2xl:py-0 py-2 first-text-split w-full text-center">
-                <h1 className="text-dark-brown">We Make a</h1>
+                <h1 className="text-dark-brown text-[1.4rem] sm:text-3xl md:text-[6.5rem] 2xl:text-[8.5rem] break-keep">We Make a</h1>
             </div>
 
             <div className="flavor-text-scroll self-center">
                 <div className="bg-mid-brown pb-4 2xl:pt-0 pt-3 2xl:px-5 px-4 inline-block">
-                    <h2 className="text-milk whitespace-nowrap">Bespoke</h2>
+                    <h2 className="text-milk whitespace-nowrap text-[1.4rem] sm:text-3xl md:text-[6.5rem] 2xl:text-[8.5rem]">Bespoke</h2>
                 </div>
             </div>
 
             <div className="overflow-hidden 2xl:py-0 py-2 second-text-split w-full text-center">
-                <h1>Cakes & Parfaits</h1>
+                <h1 className="text-[1.4rem] sm:text-3xl md:text-[6.5rem] 2xl:text-[8.5rem] break-keep">Cakes & Parfaits</h1>
             </div>
         </div>
     );
