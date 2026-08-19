@@ -42,13 +42,13 @@ const BottomBanner = () => {
 
             <div className="absolute md:w-[35rem] w-[90%] h-auto z-100 lg:top-[30%] top-[40%] lg:left-20 left-5">
                 <div className="relative inline-block md:translate-y-20 z-100">
-                    <div className="general-title relative flex flex-col justify-start items-start gap-3 md:gap-4">
+                    <div className="general-title relative flex flex-col justify-start items-start gap-5 md:gap-8">
                         <div className="overflow-hidden place-self-start">
-                            <h1 className="text-white b-title">Made For</h1>
+                            <h1 className="text-white b-title whitespace-nowrap">Made For</h1>
                         </div>
                         <div className="rotate-[3deg] rolling-animation text-nowrap place-self-start">
-                            <div className="bg-red pb-4 md:pt-0 pt-3 md:px-5 px-3 inline-block">
-                                <h2 className="text-milk">Every Occasion</h2>
+                            <div className="bg-red pb-2 pt-1.5 px-3 md:pb-4 md:pt-0 md:px-5 inline-block">
+                                <h2 className="text-milk whitespace-nowrap">Every Occasion</h2>
                             </div>
                         </div>
                     </div>

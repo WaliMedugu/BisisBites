@@ -48,7 +48,7 @@ const NutritionSection = () => {
                     <div className="relative inline-block md:translate-y-20 z-100">
                         <div className="general-title relative flex flex-col justify-center items-start gap-4">
                             <div className="overflow-hidden place-self-start h1-animate lg:p-0 p-1">
-                                <h1 className="text-balance">Handcrafted to</h1>
+                                <h1 className="whitespace-nowrap">Handcrafted to</h1>
                             </div>
                             <div className="nutrition-text-scroll place-self-start">
                                 <div className="bg-yellow-brown pb-5 md:pt-0 pt-3 md:px-5 px-3 inline-block">
@@ -70,10 +70,10 @@ const NutritionSection = () => {
                             nutrientLists.map((nutrients, index) => (
                                 <div
                                     key={index} 
-                                    className="relative flex-1 flex flex-col items-center justify-center text-center py-5 md:py-3 px-4 border-b border-mid-brown/20 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0 border-mid-brown min-w-0"
+                                    className="relative flex-1 flex flex-col items-center justify-center text-center py-2 md:py-3 px-4 border-b border-mid-brown/20 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0 border-mid-brown min-w-0"
                                 >
-                                    <p className="text-[10px] md:text-xs uppercase tracking-widest text-mid-brown font-semibold font-paragraph">{nutrients.label}</p>
-                                    <p className="text-lg md:text-xl font-bold text-dark-brown mt-1 font-paragraph">{nutrients.amount}</p>
+                                    <p className="text-[9px] md:text-xs uppercase tracking-widest text-mid-brown font-semibold font-paragraph whitespace-nowrap">{nutrients.label}</p>
+                                    <p className="text-sm sm:text-base md:text-xl font-bold text-dark-brown mt-0.5 font-paragraph whitespace-nowrap">{nutrients.amount}</p>
                                 </div>
                             ))
                         }
