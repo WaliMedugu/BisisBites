@@ -65,7 +65,7 @@ const HeroSection = () => {
                     </div>
                     <div className="hero-text-scroll">
                         <div className="hero-subtitle bg-mid-brown">
-                            <h1 className="text-milk">Freshly Baked for You</h1>
+                            <h1 className="text-milk">Freshly Baked</h1>
                         </div>
                     </div>
                     <h2 className="text-dark-brown font-semibold bg-milk/70 p-4 rounded-xl backdrop-blur-sm">We bake premium bespoke cakes and parfaits out of the finest ingredients you love... chocolate fudge, red velvet, bananas, caramel, and more. Made to sweeten every moment.</h2>
