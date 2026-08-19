@@ -2,17 +2,17 @@
 @import "tailwindcss";
 
 @theme {
-    --color-black: #161616;
-    --color-main-bg: #161616;
+    --color-black: #23140f;
+    --color-main-bg: #23140f;
     --color-white: #ffffff;
-    --color-dark-brown: #710014;
-    --color-mid-brown: #b38f6f;
-    --color-light-brown: #b38f6f;
-    --color-red-brown: #710014;
-    --color-yellow-brown: #b38f6f;
-    --color-milk-yellow: #f2f1ed;
-    --color-red: #710014;
-    --color-milk: #f2f1ed;
+    --color-dark-brown: #4b2e21;
+    --color-mid-brown: #b89068;
+    --color-light-brown: #b89068;
+    --color-red-brown: #4b2e21;
+    --color-yellow-brown: #b89068;
+    --color-milk-yellow: #f2e6b3;
+    --color-red: #4b2e21;
+    --color-milk: #f2e6b3;
     --font-sans: "Cormorant Garamond", serif;
     --font-paragraph: "Plus Jakarta Sans", sans-serif;
     --breakpoint-xs: 375px;
@@ -23,8 +23,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #161616;
-    color: #161616;
+    background-color: #23140f;
+    color: #4b2e21;
     font-family: "Cormorant Garamond", serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -284,7 +284,7 @@ body::-webkit-scrollbar {
 
 .nutrition-section {
     background-color: #faeade00;
-    background-image: radial-gradient(circle, #f2f1ed, #b38f6f);
+    background-image: radial-gradient(circle, #f2e6b3, #b89068);
 }
 
 .spin-circle {
