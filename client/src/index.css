@@ -141,7 +141,7 @@ body::-webkit-scrollbar {
         }
 
         .flavor-text-scroll {
-            @apply rotate-[-3deg] md:translate-y-5 border-[.5vw] border-milk absolute z-10;
+            @apply rotate-[-3deg] border-[.5vw] border-milk relative z-10;
         }
 
         .first-text-split h1 {

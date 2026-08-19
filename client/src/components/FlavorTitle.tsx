@@ -13,15 +13,13 @@ const FlavorTitle = () => {
                 type: "chars"
             });
 
-            const isMobile = window.innerWidth < 768;
-
             gsap.from(firstTextSplit.chars, {
                 yPercent: 200,
                 stagger: 0.02,
                 ease: "power1.inOut",
                 scrollTrigger: {
-                    trigger: ".first-text-split",
-                    start: isMobile ? "top 85%" : "top 33%",
+                    trigger: ".flavor-section",
+                    start: "top 70%",
                 }
             });
 
@@ -29,8 +27,8 @@ const FlavorTitle = () => {
                 duration: 1,
                 clipPath: "polygon(0% 0%,100% 0%,100% 100%, 0% 100%)",
                 scrollTrigger: {
-                    trigger: ".flavor-text-scroll",
-                    start: isMobile ? "top 85%" : "top 17%",
+                    trigger: ".flavor-section",
+                    start: "top 55%",
                 }
             });
 
@@ -39,8 +37,8 @@ const FlavorTitle = () => {
                 stagger: 0.02,
                 ease: "power1.inOut",
                 scrollTrigger: {
-                    trigger: ".second-text-split",
-                    start: isMobile ? "top 85%" : "top 3%",
+                    trigger: ".flavor-section",
+                    start: "top 40%",
                 }
             });
         });
@@ -71,22 +69,22 @@ const FlavorTitle = () => {
     });
 
     return (
-        <div className="general-title col-center h-full 2xl:gap-32 xl:gap-24 gap-10 md:gap-16">
-            <div className="overflow-hidden 2xl:py-0 py-3 first-text-split w-full text-center">
-                <h1 className="whitespace-nowrap text-center">We Make a</h1>
+        <div className="general-title col-center h-full 2xl:gap-8 xl:gap-6 gap-5">
+            <div className="overflow-hidden 2xl:py-0 py-2 first-text-split w-full text-center">
+                <h1 className="text-dark-brown whitespace-nowrap">We Make a</h1>
             </div>
 
-            <div className="flavor-text-scroll relative my-4 md:my-0">
-                <div className="bg-mid-brown pb-3 pt-2 md:pb-5 md:pt-3 px-5 text-center">
-                    <h2 className="text-milk text-center whitespace-nowrap">Bespoke</h2>
+            <div className="flavor-text-scroll self-center">
+                <div className="bg-mid-brown pb-4 2xl:pt-0 pt-3 2xl:px-5 px-4 inline-block">
+                    <h2 className="text-milk whitespace-nowrap">Bespoke</h2>
                 </div>
             </div>
 
-            <div className="overflow-hidden 2xl:py-0 py-3 second-text-split w-full text-center">
-                <h1 className="whitespace-nowrap text-center">Cakes & Parfaits</h1>
+            <div className="overflow-hidden 2xl:py-0 py-2 second-text-split w-full text-center">
+                <h1 className="whitespace-nowrap">Cakes & Parfaits</h1>
             </div>
         </div>
     );
 };
 
-export default FlavorTitle;
+export default FlavorTitle;
