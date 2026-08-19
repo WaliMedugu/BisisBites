@@ -1,10 +1,10 @@
-//Video Path
-import f1 from "../assets/videos/f1.mp4"
-import f2 from "../assets/videos/f2.mp4"
-import f3 from "../assets/videos/f3.mp4"
-import f4 from "../assets/videos/f4.mp4"
-import f5 from "../assets/videos/f5.mp4"
-import f6 from "../assets/videos/f6.mp4"
+//Image Path
+import f1 from "../assets/images/f1.jpg"
+import f2 from "../assets/images/f2.jpg"
+import f3 from "../assets/images/f3.jpg"
+import f4 from "../assets/images/f4.jpg"
+import f5 from "../assets/images/f5.jpg"
+import f6 from "../assets/images/f6.jpg"
 
 // Define types
 interface Flavor {

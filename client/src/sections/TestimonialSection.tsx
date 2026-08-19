@@ -87,12 +87,19 @@ const TestimonialSection = () => {
                                 onMouseEnter={() => handlePlay(index)}
                                 onMouseLeave={() => handlePause(index)}
                             >
-                                <video
-                                    key={index}
-                                    ref={(el) => setVideoRef(el, index)}
-                                    src={card.src} playsInline muted loop
-                                    className="size-full object-cover"
-                                />
+                                {typeof card.src === "string" && card.src.includes(".mp4") ? (
+                                    <video
+                                        ref={(el) => setVideoRef(el, index)}
+                                        src={card.src} playsInline muted loop
+                                        className="size-full object-cover"
+                                    />
+                                ) : (
+                                    <img
+                                        src={card.src}
+                                        alt={card.name}
+                                        className="size-full object-cover"
+                                    />
+                                )}
                             </div>
                         ))
                     }
