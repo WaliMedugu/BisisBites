@@ -3,13 +3,15 @@ import ClipPathTitle from "../components/ClipPathTitle"
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
 import VideoPin from "../components/VideoPin";
+import { useMediaQuery } from "react-responsive";
 
 const BenifitSection = () => {
 
+    const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
     useGSAP(() => {
         document.fonts.ready.then(() => {
-            const hParaSplit = SplitText.create(".para-animation", { type: "words" });
-
+            const hParaSplit = !isMobile ? SplitText.create(".para-animation", { type: "words" }) : null;
 
             const revealTl = gsap.timeline({
                 delay: 1,
@@ -18,11 +20,10 @@ const BenifitSection = () => {
                     start: "top 65%",
                     end: "top -10%",
                     scrub: 1.5,
-                    // markers: true
                 }
             });
 
-            revealTl.from(hParaSplit.words, {
+            revealTl.from(hParaSplit?.words ?? [], {
                 duration: 1,
                 stagger: 0.2,
                 opacity: 0,
@@ -57,7 +58,7 @@ const BenifitSection = () => {
         <section className="benefit-section">
             <div className="container mx-auto pt-16 mb-0 py-0">
                 <div className="col-center">
-                    <p className="md:text-sm para-animation text-milk">What We Promise:
+                    <p className="md:text-sm para-animation text-milk hidden md:block">What We Promise:
                         <br />Explore What Makes Bisi's Bites Special
                     </p>
                 </div>
@@ -73,7 +74,7 @@ const BenifitSection = () => {
                 </div>
             </div>
 
-            <div className="vd-pin relative overlay-box md:-mt-52 mt-0">
+            <div className="vd-pin relative overlay-box md:-mt-52 mt-0 hidden md:block">
                 <div className="video-wrapper relative w-full h-screen">
                     <VideoPin />
                 </div>

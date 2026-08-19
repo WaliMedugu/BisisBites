@@ -16,10 +16,9 @@ const MessageSection = () => {
                 stagger: 1,
                 scrollTrigger: {
                     trigger: ".message-content",
-                    start: "top center",
-                    end: "30% center",
+                    start: "top 85%",
+                    end: "40% center",
                     scrub: true,
-                    // markers: true
                 }
             });
 
@@ -29,20 +28,17 @@ const MessageSection = () => {
                 stagger: 1,
                 scrollTrigger: {
                     trigger: ".second-message",
-                    start: "top center",
-                    end: "bottom center",
+                    start: "top 80%",
+                    end: "bottom 60%",
                     scrub: true,
-                    // markers: true
                 }
             });
 
             //Timeline
             const revealTl = gsap.timeline({
-                delay: 1,
                 scrollTrigger: {
                     trigger: ".msg-text-scroll",
-                    start: "top 60%",
-                    // markers: true
+                    start: "top 85%",
                 }
             });
 
@@ -73,15 +69,15 @@ const MessageSection = () => {
     return (
         <section className="message-content bg-red-brown">
             <div className="container mx-auto flex-center py-28 relative">
-                <div className="w-full h-full md:px-30 ">
+                <div className="w-full h-full md:px-30">
                     <div className="msg-wrapper">
-                        <h1 className="first-message text-wrap w-[90%]">Satisfy your cravings with a</h1>
-                        <div className="msg-text-scroll md:mt-12 mt-0">
+                        <h1 className="first-message text-wrap text-balance w-full text-center">Satisfy your cravings with a</h1>
+                        <div className="msg-text-scroll md:mt-4 mt-2">
                             <div className="bg-mid-brown md:pb-4 pb-3 px-5">
                                 <h2 className="text-milk">Sweet Bite</h2>
                             </div>
                         </div>
-                        <h1 className="second-message md:w-full w-[80%]">crafted uniquely to celebrate your special moments</h1>
+                        <h1 className="second-message text-balance text-center w-full">crafted uniquely to celebrate your special moments</h1>
                     </div>
                     <div className="flex-center md:mt-20 mt-10">
                         <div className="max-w-md px-10 flex-center overflow-hidden">
