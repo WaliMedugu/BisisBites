@@ -38,8 +38,13 @@ Memory of Features Added and Changed:
 - FooterSection: Features custom product links, logo details, copyright dates, and luxury dark flatlay image blend background.
 
 5. Code Optimization & Validation:
-- Configured all order buttons across Hero, Navbar, FlavorSection, BottomBanner, and Footer to open WhatsApp order channel: `https://wa.me/2348083822886`.
-- Stripped all YouTube links, replacing them with functional Instagram (`bisis_bites`), TikTok (`@bisis_bites`), and WhatsApp (`08083822886`) links.
-- Added copyright attribution credit at the bottom footer: "Made by blueparticlestudios@gmail.com".
+- Configured all order buttons across Hero, Navbar, FlavorSection, BottomBanner, and Footer to open Bisi's WhatsApp order channel: `https://wa.me/2349015043212` (Phone: `09015043212`).
+- Stripped all Instagram, TikTok, and YouTube links from Navbar, NavMenu, Testimonials, and Footer, keeping only WhatsApp and direct Phone/Call contact pathways.
+- Placed the credit string "Made by blueparticlestudios@gmail.com" at the bottom footer copyright.
 - Replaced the single menu image in NavMenu with an interactive 3x2 grid collage displaying the custom cake product images, dynamically highlighting the hovered product category.
-- Successfully verified project using npm run build.
+- Replaced the old craftsmanship details image with a cinematic closeup of gourmet cakes baking inside professional ovens (`details-img.png`), removing all people from project images.
+- Refactored MessageSection head copy to custom cakes theme ("Satisfy your cravings with a Sweet Bite...").
+- Swapped "What's Everyone Saying" header in TestimonialSection to "What's Everyone Tasting".
+- Compressed FooterSection height by reducing vertical dvh blocks and padding spacing to make it compact.
+- Redesigned the Curation list in NutritionSection to remove the old drink "up to" text, rendering a clean vertical item card layout on mobile and horizontal row with vertical dividers on desktop.
+- Successfully verified project using npm run build and pushed latest master to GitHub repository.
