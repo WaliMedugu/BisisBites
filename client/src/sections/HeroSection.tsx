@@ -1,7 +1,8 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
-import { getImage } from '../utils/media';
+
+import heroBg from "../assets/videos/hero-bg.mp4";
 
 const HeroSection = () => {
 
@@ -50,13 +51,14 @@ const HeroSection = () => {
     return (
         <section>
             <div className="hero-container bg-milk">
-                <div className="absolute inset-0 flex justify-center items-end pointer-events-none select-none z-0">
-                    <img 
-                        src={getImage("hero-img.png")} 
-                        alt="Bisi's Bites Hero" 
-                        className="max-h-[65vh] md:max-h-[75vh] w-auto object-contain translate-y-4"
-                    />
-                </div>
+                <video
+                    src={heroBg}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="absolute inset-0 w-full h-full object-cover z-0 opacity-45 mix-blend-luminosity"
+                />
                 <div className="hero-content opacity-0 relative z-10">
                     <div className="overflow-hidden">
                         <h1 className="hero-title lg:p-0 p-2 text-dark-brown">Bisi's Bites</h1>
