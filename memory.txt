@@ -1,0 +1,45 @@
+Memory of Features Added and Changed:
+
+1. Initialization:
+- Copied BouquetWebsite project from c:\Code\Paid Projects\BoquetWebsite_boquetbyel to C:\Code\Paid Projects\BisisBites.
+
+2. Design & Aesthetics:
+- Retained custom color themes in index.css:
+  * Crimson Depth: #710014
+  * Warm Sand: #b38f6f
+  * Soft Pearl: #f2f1ed
+  * Obsidian Black: #161616
+- Retained Google Fonts "Cormorant Garamond" (display) and "Plus Jakarta Sans" (body).
+
+3. Media Generation:
+- Generated high-quality luxury bakery logo (bisis_logo.png) to replace els_logo.png.
+- Generated 6 distinct premium custom cake models:
+  * Chocolate Foil Cake (foil-cake.png)
+  * Red Velvet Parfait (cake-parfait.png)
+  * Golden Banana Bread (banana-bread.png)
+  * Creamy Standard Cake (standard-cake.png)
+  * Festive Birthday Cake (birthday-cake.png)
+  * Bespoke Custom Cake (custom-cake.png)
+- Generated high-end luxury tiered celebration cake photo (hero-img.png).
+- Generated pastry chef craftsmanship detail closeup (details-img.png).
+- Generated top-down bakery flatlay ingredients background photo (footer-bg-bouquet.png).
+- Removed backgrounds from all 6 cake product images and the hero cake image using Python's `rembg` library to cleanly blend them into the layout.
+
+4. Component & Copy Remaking:
+- PreLoader: Uses the new brand logo and Crimson Depth / Soft Pearl color themes.
+- Navbar: Features brand logo and CTA button "ORDER NOW" mapped to modern colors.
+- NavMenu: Mapped links to Bisi's Bites categories (Foil, Parfait, Banana, Standard, Birthday, Custom) and aligned styles with new aesthetic.
+- HeroSection: Displays the elegant tiered custom cake centered at the bottom of the screen with luxury typography overlay and premium copy.
+- MessageSection: Text copy refactored to focus on bespoke gourmet cake design personalization.
+- FlavorSection & FlavorSlider: Product carousel dynamically maps cake products with custom wrappers, background SVGs, and particle elements.
+- NutritionSection (Craftsmanship): Features pastry chef closeup photo, bespoke baking details list (100% Handcrafted, Premium & Fresh, Piped Fondant, Rich & Moist, Same-Day Hand-Delivery), and handcrafted quality statements.
+- BenefitSection: Promotes boutique value propositions (Endless Variety, Personalized, Same-Day Delivery, Stunning Aesthetics).
+- BottomBanner: Focuses CTA on custom cake ordering for every occasion.
+- FooterSection: Features custom product links, logo details, copyright dates, and luxury dark flatlay image blend background.
+
+5. Code Optimization & Validation:
+- Configured all order buttons across Hero, Navbar, FlavorSection, BottomBanner, and Footer to open WhatsApp order channel: `https://wa.me/2348083822886`.
+- Stripped all YouTube links, replacing them with functional Instagram (`bisis_bites`), TikTok (`@bisis_bites`), and WhatsApp (`08083822886`) links.
+- Added copyright attribution credit at the bottom footer: "Made by blueparticlestudios@gmail.com".
+- Replaced the single menu image in NavMenu with an interactive 3x2 grid collage displaying the custom cake product images, dynamically highlighting the hovered product category.
+- Successfully verified project using npm run build.

@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+Lib/
+Scripts/
+
+# Build output
+client/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Python / rembg
+__pycache__/
+*.py[cod]
+*.pth
