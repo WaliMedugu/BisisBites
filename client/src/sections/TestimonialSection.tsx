@@ -14,7 +14,7 @@ const TestimonialSection = () => {
 
     useGSAP(() => {
         gsap.set(".testimonials-section", {
-            marginTop: "-100vh"
+            marginTop: isMobile ? "0px" : "-100vh"
         });
 
         const tesTl = gsap.timeline({

@@ -52,8 +52,8 @@ const FlavorSlider = () => {
     });
 
     return (
-        <div className="slider-wrapper lg:w-[480vw] lg:h-full mt-0 xl:mt-0 bg-milk h-[100%]">
-            <div className="flavors lg:pb-50 flex md:flex-row flex-col items-center lg:items-start lg:pt-10 2xl:gap-72 lg:gap-52 md:gap-24 gap-7 flex-nowrap">
+        <div className="slider-wrapper lg:w-[480vw] lg:h-full mt-0 xl:mt-0 bg-milk h-auto lg:h-[100%]">
+            <div className="flavors lg:pb-50 flex lg:flex-row flex-col items-center lg:items-start lg:pt-10 gap-20 lg:gap-52 2xl:gap-72 flex-nowrap">
                 {flavorlists.map((flavor) => (
                     <div
                         key={flavor.name}

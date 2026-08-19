@@ -67,7 +67,7 @@ const FlavorSection = () => {
     });
 
     return (
-        <section ref={flavorRef} className="flavor-section relative overflow-hidden">
+        <section ref={flavorRef} className="flavor-section relative overflow-x-hidden lg:overflow-hidden">
             {/* Fixed button (stays in bottom-center during scroll) */}
             <div
                 className={`${isMob ?
@@ -81,7 +81,7 @@ const FlavorSection = () => {
                 </a>
             </div>
             {/* This container moves horizontally */}
-            <div className="flavor-scroll-inner h-full flex lg:flex-row flex-col relative">
+            <div className="flavor-scroll-inner lg:h-full h-auto flex lg:flex-row flex-col relative">
                 <div className="lg:w-[57%] flex-none h-80 lg:h-full lg:mt-[9%] xl:mt-0 lg:pb-50">
                     <FlavorTitle />
                 </div>
