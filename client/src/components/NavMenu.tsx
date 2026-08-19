@@ -61,7 +61,7 @@ const NavMenu: React.FC<NavMenuProps> = ({ isOpen = false }) => {
                 <div className="menu-links w-full lg:w-1/2 flex flex-col justify-center items-center text-center p-8 mt-16 lg:mt-0">
                     {menuItems.map((item) => (
                         <a
-                            href="https://wa.me/2348083822886"
+                            href="https://wa.me/2349015043212"
                             target="_blank"
                             rel="noopener noreferrer"
                             key={item.name}
@@ -76,9 +76,8 @@ const NavMenu: React.FC<NavMenuProps> = ({ isOpen = false }) => {
                     ))}
 
                     <div className="flex justify-center items-center gap-6 text-lg mt-10 text-dark-brown font-semibold">
-                        <a href="https://wa.me/2348083822886" target="_blank" rel="noopener noreferrer" className="hover:text-red-brown">WhatsApp</a>
-                        <a href="https://instagram.com/bisis_bites" target="_blank" rel="noopener noreferrer" className="hover:text-red-brown">Instagram</a>
-                        <a href="https://tiktok.com/@bisis_bites" target="_blank" rel="noopener noreferrer" className="hover:text-red-brown">TikTok</a>
+                        <a href="https://wa.me/2349015043212" target="_blank" rel="noopener noreferrer" className="hover:text-red-brown">WhatsApp</a>
+                        <a href="tel:09015043212" className="hover:text-red-brown">Call: 09015043212</a>
                     </div>
                 </div>
 

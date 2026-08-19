@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
                 />
 
                 <div className="px-6 py-2 bg-mid-brown hover:bg-dark-brown text-center rounded-3xl transition-colors">
-                    <a href="https://wa.me/2348083822886" target="_blank" rel="noopener noreferrer" className="text-milk text-sm font-semibold p-0 m-0 tracking-wider">
+                    <a href="https://wa.me/2349015043212" target="_blank" rel="noopener noreferrer" className="text-milk text-sm font-semibold p-0 m-0 tracking-wider">
                         ORDER NOW
                     </a>
                 </div>

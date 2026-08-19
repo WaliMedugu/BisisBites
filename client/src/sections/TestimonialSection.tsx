@@ -76,7 +76,7 @@ const TestimonialSection = () => {
                 <div className="all-title lg:h-[150vh] h-full absolute size-full flex flex-col items-center lg:pt-[5vw] pt-[15vw]">
                     <h1 className="text-black first-title ft-anim">What's</h1>
                     <h1 className="text-mid-brown sec-title st-anim">Everyone</h1>
-                    <h1 className="text-black third-title tt-anim">Saying</h1>
+                    <h1 className="text-black third-title tt-anim">Tasting</h1>
                 </div>
                 <div className="pin-box ">
                     {
@@ -99,7 +99,7 @@ const TestimonialSection = () => {
                 </div>
             </div>
             <div className="absolute bottom-20 w-full h-auto py-2 flex justify-center items-center z-100">
-                <a href="https://instagram.com/bisis_bites" target="_blank" rel="noopener noreferrer" className="bg-dark-brown text-milk hover:bg-mid-brown transition-colors px-10 py-4 rounded-4xl font-bold tracking-wider">Explore Reviews</a>
+                <a href="https://wa.me/2349015043212" target="_blank" rel="noopener noreferrer" className="bg-dark-brown text-milk hover:bg-mid-brown transition-colors px-10 py-4 rounded-4xl font-bold tracking-wider">Explore Reviews</a>
             </div>
         </section >
     );

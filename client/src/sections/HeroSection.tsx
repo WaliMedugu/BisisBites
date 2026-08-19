@@ -68,7 +68,7 @@ const HeroSection = () => {
                     </div>
                     <h2 className="text-dark-brown font-semibold bg-milk/70 p-4 rounded-xl backdrop-blur-sm">We bake premium bespoke cakes and parfaits out of the finest ingredients you love... chocolate fudge, red velvet, bananas, caramel, and more. Made to sweeten every moment.</h2>
                     <div className="hero-button bg-dark-brown hover:bg-mid-brown text-milk transition-colors shadow-lg">
-                        <a href="https://wa.me/2348083822886" target="_blank" rel="noopener noreferrer" className="text-milk tracking-wider font-bold">EXPLORE CAKES</a>
+                        <a href="https://wa.me/2349015043212" target="_blank" rel="noopener noreferrer" className="text-milk tracking-wider font-bold">EXPLORE CAKES</a>
                     </div>
                 </div>
             </div>

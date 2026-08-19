@@ -76,7 +76,7 @@ const FlavorSection = () => {
                     "absolute bottom-[10%] left-1/2 -translate-x-1/2 z-[100] flex justify-center"
                     }`}
             >
-                <a href="https://wa.me/2348083822886" target="_blank" rel="noopener noreferrer" className="text-sm rounded-4xl bg-dark-brown text-milk px-10 md:py-4 py-3 flex items-center justify-center cursor-pointer shadow-md hover:bg-mid-brown transition-all font-bold tracking-wider" >
+                <a href="https://wa.me/2349015043212" target="_blank" rel="noopener noreferrer" className="text-sm rounded-4xl bg-dark-brown text-milk px-10 md:py-4 py-3 flex items-center justify-center cursor-pointer shadow-md hover:bg-mid-brown transition-all font-bold tracking-wider" >
                     ORDER YOURS NOW
                 </a>
             </div>

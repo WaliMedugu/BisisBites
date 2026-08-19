@@ -2,14 +2,9 @@ import { useGSAP } from "@gsap/react"
 import { nutrientLists } from "../constants/details"
 import gsap from "gsap"
 import { SplitText } from "gsap/all"
-import { useMediaQuery } from "react-responsive"
 import { getImage } from '../utils/media';
 
 const NutritionSection = () => {
-
-    const isMobile = useMediaQuery({
-        query: "(max-width: 768px)",
-    });
 
     useGSAP(() => {
         document.fonts.ready.then(() => {
@@ -72,18 +67,13 @@ const NutritionSection = () => {
                 <div className="nutrition-box">
                     <div className="list-wrapper">
                         {
-                            (isMobile ? nutrientLists.slice(0, 3) : nutrientLists).map((nutrients, index, arr) => (
-                                <div key={index} className="relative flex-1 col-center">
-                                    <div className="">
-                                        <p className="md:text-sm font-paragraph">{nutrients.label}</p>
-                                        <p className="font-paragraph text-[10px] mt-[6px]">up to</p>
-                                        <p className="text-2xl md:text-2xl tracking-tighter font-bold">{nutrients.amount}</p>
-                                    </div>
-                                    {
-                                        index !== arr.length - 1 && (
-                                            <div className="spacer-border" />
-                                        )
-                                    }
+                            nutrientLists.map((nutrients, index) => (
+                                <div 
+                                    key={index} 
+                                    className="relative flex-1 flex flex-col items-center justify-center text-center py-4 md:py-2 px-2 border-b border-mid-brown/20 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0 border-mid-brown"
+                                >
+                                    <p className="text-[10px] md:text-xs uppercase tracking-widest text-mid-brown font-semibold font-paragraph">{nutrients.label}</p>
+                                    <p className="text-lg md:text-xl font-bold text-dark-brown mt-1 font-paragraph">{nutrients.amount}</p>
                                 </div>
                             ))
                         }

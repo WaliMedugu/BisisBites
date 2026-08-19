@@ -57,7 +57,7 @@ const BottomBanner = () => {
                             <p className=" lg:w-1/2 w-[80%]">Order your customized cake today and make your loved ones feel truly special with Bisi's Bites. We offer same-day hand delivery.</p>
                         </div>
                         <div className="font-medium">
-                            <a href="https://wa.me/2348083822886" target="_blank" rel="noopener noreferrer" className="px-10 py-4 rounded-4xl bg-black text-milk hover:bg-milk hover:text-black transition-colors font-bold tracking-wider">ORDER ONLINE NOW</a>
+                            <a href="https://wa.me/2349015043212" target="_blank" rel="noopener noreferrer" className="px-10 py-4 rounded-4xl bg-black text-milk hover:bg-milk hover:text-black transition-colors font-bold tracking-wider">ORDER ONLINE NOW</a>
                         </div>
                     </div>
                 </div>

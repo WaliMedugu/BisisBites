@@ -194,15 +194,11 @@ body::-webkit-scrollbar {
             @apply absolute md:bottom-16 bottom-4 left-1/2 -translate-x-1/2 md:w-[80%] w-full md:h-auto md:px-5 px-2;
 
             .list-wrapper {
-                @apply bg-milk rounded-full border-[.5vw] border-mid-brown mx-auto max-w-4xl py-5 md:px-0 px-5 flex justify-between items-center;
+                @apply bg-milk rounded-3xl md:rounded-full border-4 md:border-[.4vw] border-mid-brown mx-auto max-w-5xl py-6 md:py-6 px-6 md:px-0 flex flex-col md:flex-row justify-between items-stretch md:items-center;
 
                 p {
                     @apply text-dark-brown;
                 }
-            }
-
-            .spacer-border {
-                @apply absolute right-0 top-1/2 transform -translate-y-1/2 h-16 w-px bg-mid-brown;
             }
         }
     }

@@ -75,13 +75,13 @@ const MessageSection = () => {
             <div className="container mx-auto flex-center py-28 relative">
                 <div className="w-full h-full md:px-30 ">
                     <div className="msg-wrapper">
-                        <h1 className="first-message text-wrap w-[90%]">Express your feelings with a</h1>
+                        <h1 className="first-message text-wrap w-[90%]">Satisfy your cravings with a</h1>
                         <div className="msg-text-scroll md:mt-12 mt-0">
                             <div className="bg-mid-brown md:pb-4 pb-3 px-5">
-                                <h2 className="text-milk">Custom Design</h2>
+                                <h2 className="text-milk">Sweet Bite</h2>
                             </div>
                         </div>
-                        <h1 className="second-message md:w-full w-[80%]">crafted uniquely for the ones you cherish most</h1>
+                        <h1 className="second-message md:w-full w-[80%]">crafted uniquely to celebrate your special moments</h1>
                     </div>
                     <div className="flex-center md:mt-20 mt-10">
                         <div className="max-w-md px-10 flex-center overflow-hidden">
