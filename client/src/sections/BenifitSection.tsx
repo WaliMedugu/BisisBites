@@ -64,10 +64,10 @@ const BenifitSection = () => {
                 </div>
 
                 <div className="md:mt-20 md:mb-0 mb-30 mt-30 col-center">
-                    <ClipPathTitle title={"Endless Variety"} color={"#f2e6b3"} bg={"#4b2e21"} className={"first-title"} borderColor={"#23140f"} />
-                    <ClipPathTitle title={"Always Personalized"} color={"#4b2e21"} bg={"#b89068"} className={"second-title"} borderColor={"#23140f"} />
-                    <ClipPathTitle title={"Same-Day Delivery"} color={"#f2e6b3"} bg={"#4b2e21"} className={"third-title"} borderColor={"#23140f"} />
-                    <ClipPathTitle title={"Stunning Aesthetics"} color={"#4b2e21"} bg={"#b89068"} className={"fourth-title"} borderColor={"#23140f"} />
+                    <ClipPathTitle title={"Endless Variety"} color={"#f2f1ed"} bg={"#710014"} className={"first-title"} borderColor={"#161616"} />
+                    <ClipPathTitle title={"Always Personalized"} color={"#161616"} bg={"#b38f6f"} className={"second-title"} borderColor={"#161616"} />
+                    <ClipPathTitle title={"Same-Day Delivery"} color={"#f2f1ed"} bg={"#710014"} className={"third-title"} borderColor={"#161616"} />
+                    <ClipPathTitle title={"Stunning Aesthetics"} color={"#161616"} bg={"#b38f6f"} className={"fourth-title"} borderColor={"#161616"} />
                 </div>
                 <div className="md:mt-0 md:pb-0 pb-20 mt-10">
                     <p className="text-milk">And much more ...</p>

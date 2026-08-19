@@ -52,16 +52,3 @@ Memory of Features Added and Changed:
 6. Vercel Configuration & Deployment Prep:
 - Added a root package.json to enable auto-detection of Node.js project and run commands relative to the client subdirectory.
 - Configured root vercel.json with build, install, and output paths pointing to the client/ directory (e.g. outputDirectory: client/dist).
-
-7. Brand Color Scheme Update (Rich Coffee Bakery Theme):
-- Modified `client/src/index.css` `@theme` block to replace Crimson Depth, Soft Pearl, and Warm Sand with:
-  * Whipped Butter (cream/butter yellow): `#F2E6B3` (replaces Soft Pearl `#f2f1ed` and milk yellow variables)
-  * Cookie Crumble (rich espresso chocolate brown): `#4B2E21` (replaces Crimson Depth/Red `#710014`)
-  * Warm Sand / Caramel Biscuit (middle accent brown): `#B89068` (replaces original sand `#b38f6f`)
-  * Obsidian Black replaced with rich dark espresso background color: `#23140f` (replaces `#161616`)
-- Updated default html and body background/text styles in `index.css` to use rich espresso brown background `#23140f` and Cookie Crumble `#4b2e21` text.
-- Replaced the radial background gradient of `NutritionSection` to use the Whipped Butter to Warm Sand caramel gradient.
-- Updated hardcoded hex color values in `client/src/sections/MessageSection.tsx` scroll trigger config from `#f2f1ed` to `#f2e6b3`.
-- Updated hardcoded hex values in `client/src/sections/BenifitSection.tsx` titles and borders to match the new color scheme components.
-- Swapped hardcoded `bg-[#222123]` with standard `bg-black` in `client/src/sections/BottomBanner.tsx` to align with the new dark espresso theme variable.
-- Verified build compiles successfully using npm run build.

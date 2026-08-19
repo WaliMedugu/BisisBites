@@ -36,7 +36,7 @@ const BottomBanner = () => {
 
 
     return (
-        <section className="bottom-banner 2xl:min-h-dvh w-full h-full overflow-hidden relative bg-black flex flex-col justify-center items-start">
+        <section className="bottom-banner 2xl:min-h-dvh w-full h-full overflow-hidden relative bg-[#222123] flex flex-col justify-center items-start">
             <img src={getImage("footer-dip.png")} alt="footer-img" className="w-full object-cover -translate-y-1" />
             <img src={getImage("bottom-banner.svg")} alt="" className="w-full h-auto mt-10 md:w-fit" />
 
