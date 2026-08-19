@@ -48,3 +48,7 @@ Memory of Features Added and Changed:
 - Compressed FooterSection height by reducing vertical dvh blocks and padding spacing to make it compact.
 - Redesigned the Curation list in NutritionSection to remove the old drink "up to" text, rendering a clean vertical item card layout on mobile and horizontal row with vertical dividers on desktop.
 - Successfully verified project using npm run build and pushed latest master to GitHub repository.
+
+6. Vercel Configuration & Deployment Prep:
+- Added a root package.json to enable auto-detection of Node.js project and run commands relative to the client subdirectory.
+- Configured root vercel.json with build, install, and output paths pointing to the client/ directory (e.g. outputDirectory: client/dist).
