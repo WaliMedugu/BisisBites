@@ -48,7 +48,7 @@ const NutritionSection = () => {
                     <div className="relative inline-block md:translate-y-20 z-100">
                         <div className="general-title relative flex flex-col justify-center items-start gap-4">
                             <div className="overflow-hidden place-self-start h1-animate bg-milk/75 backdrop-blur-sm px-6 py-2 rounded-2xl shadow-sm text-dark-brown">
-                                <h1 className="text-balance text-dark-brown">Handcrafted to</h1>
+                                <h1 className="text-balance text-dark-brown">Made to</h1>
                             </div>
                             <div className="nutrition-text-scroll place-self-start">
                                 <div className="bg-yellow-brown pb-5 md:pt-0 pt-3 md:px-5 px-3 inline-block">

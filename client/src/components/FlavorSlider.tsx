@@ -59,21 +59,23 @@ const FlavorSlider = () => {
                         key={flavor.name}
                         className={`relative z-30 lg:w-[50vw] w-88 lg:h-[70vh] md:w-[90vw] md:h-[50vh] h-80 flex-none ${flavor.rotation}`}
                     >
-                        <img
-                            src={getImage(`${flavor.color}-bg.svg`)}
-                            alt={flavor.name}
-                            className="absolute bottom-0"
-                        />
-                        <img
-                            src={getImage(flavor.imageName)}
-                            alt={flavor.name}
-                            className="drinks"
-                        />
-                        <img
-                            src={getImage(flavor.elementsName)}
-                            alt={flavor.name}
-                            className="elements"
-                        />
+                        <a href="https://wa.me/2349015043212" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
+                            <img
+                                src={getImage(`${flavor.color}-bg.svg`)}
+                                alt={flavor.name}
+                                className="absolute bottom-0"
+                            />
+                            <img
+                                src={getImage(flavor.imageName)}
+                                alt={flavor.name}
+                                className="drinks"
+                            />
+                            <img
+                                src={getImage(flavor.elementsName)}
+                                alt={flavor.name}
+                                className="elements"
+                            />
+                        </a>
 
                         <h1>{flavor.name}</h1>
                     </div>

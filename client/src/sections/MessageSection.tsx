@@ -71,9 +71,9 @@ const MessageSection = () => {
             <div className="container mx-auto flex-center py-28 relative">
                 <div className="w-full h-full md:px-30">
                     <div className="msg-wrapper">
-                        <h1 className="first-message text-wrap text-balance w-full text-center">Satisfy your cravings with a</h1>
-                        <div className="msg-text-scroll md:mt-4 mt-2">
-                            <div className="bg-mid-brown md:pb-4 pb-3 px-5">
+                        <h1 className="first-message text-wrap text-balance w-full text-center mx-auto">Satisfy your cravings with a</h1>
+                        <div className="msg-text-scroll md:mt-4 mt-2 mx-auto flex justify-center text-center">
+                            <div className="bg-mid-brown md:pb-4 pb-3 px-5 inline-block">
                                 <h2 className="text-milk">Sweet Bite</h2>
                             </div>
                         </div>

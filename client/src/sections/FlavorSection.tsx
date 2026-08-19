@@ -45,48 +45,31 @@ const FlavorSection = () => {
                 ease: "power1.inOut",
             });
         };
-        if (isMob) {
-            const btn = document.querySelector(".fixed-btn") as HTMLElement | null;
-            if (!btn) return;
-
-            ScrollTrigger.create({
-                trigger: ".flavor-section",
-                start: "top 90%",
-                end: "bottom bottom",
-                onToggle: (self) => {
-                    btn.style.position = self.isActive ? "fixed" : "absolute";
-                    btn.style.bottom = "0%";
-                    btn.style.left = "50%";
-                    btn.style.transform = "translateX(-50%)";
-                },
-            });
-
-            return () => ScrollTrigger.killAll();
-        };
-
     });
 
     return (
         <section ref={flavorRef} className="flavor-section relative overflow-x-hidden lg:overflow-hidden">
-            {/* Fixed button (stays in bottom-center during scroll) */}
-            <div
-                className={`${isMob ?
-                    "fixed-btn w-full fixed py-4 h-22 left-1/2 z-[100] flex justify-center bg-milk"
-                    :
-                    "absolute bottom-[10%] left-1/2 -translate-x-1/2 z-[100] flex justify-center"
-                    }`}
-            >
+            {/* Desktop Button (Floating) */}
+            <div className="hidden lg:flex absolute bottom-[10%] left-1/2 -translate-x-1/2 z-[100] justify-center">
                 <a href="https://wa.me/2349015043212" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg rounded-4xl bg-dark-brown text-milk md:px-14 px-10 md:py-5 py-4 flex items-center justify-center cursor-pointer shadow-[0_4px_24px_rgba(113,0,20,0.4)] hover:bg-mid-brown transition-all font-bold tracking-widest uppercase" >
                     ORDER YOURS NOW
                 </a>
             </div>
-            {/* This container moves horizontally */}
+
+            {/* This container moves horizontally on desktop, vertical on mobile */}
             <div className="flavor-scroll-inner lg:h-full h-auto flex lg:flex-row flex-col relative">
                 <div className="lg:w-[57%] flex-none h-80 lg:h-full lg:mt-[9%] xl:mt-0 lg:pb-50">
                     <FlavorTitle />
                 </div>
-                <div ref={slideRef} className="lg:pb-0 pb-8 slider-con">
+                <div ref={slideRef} className="lg:pb-0 slider-con">
                     <FlavorSlider />
+                </div>
+                
+                {/* Mobile Button (Below last cake) */}
+                <div className="lg:hidden flex justify-center w-full pb-16 pt-4 relative z-50">
+                    <a href="https://wa.me/2349015043212" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg rounded-4xl bg-dark-brown text-milk md:px-14 px-10 md:py-5 py-4 flex items-center justify-center cursor-pointer shadow-[0_4px_24px_rgba(113,0,20,0.4)] hover:bg-mid-brown transition-all font-bold tracking-widest uppercase" >
+                        ORDER YOURS NOW
+                    </a>
                 </div>
             </div>
 
