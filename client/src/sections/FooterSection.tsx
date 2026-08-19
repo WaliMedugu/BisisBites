@@ -21,10 +21,9 @@ const FooterSection = () => {
                 zIndex: 0,
                 scrollTrigger: {
                     trigger: ".footer-section",
-                    start: `${isMobF ? "top 60%" : "top 50%"}`,
-                    end: `${isMobF ? "top 20%" : "top 10%"}`,
-                    scrub: 1.5,
-                    // markers: true
+                    start: "top 85%",
+                    end: "bottom bottom",
+                    scrub: 1.2,
                 }
             });
         });
