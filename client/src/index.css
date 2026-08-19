@@ -262,18 +262,18 @@ body::-webkit-scrollbar {
     }
 
     .footer-section {
-        @apply 2xl:min-h-dvh overflow-hidden relative bg-black;
+        @apply overflow-hidden relative bg-black;
 
         .social-btn {
-            @apply border border-milk/20 md:size-[5vw] size-14 md:p-0 p-3 flex justify-center items-center rounded-full hover:bg-[#ffffff1a] transition-colors cursor-pointer;
+            @apply border border-milk/20 md:size-[5vw] size-10 md:p-0 p-2 flex justify-center items-center rounded-full hover:bg-[#ffffff1a] transition-colors cursor-pointer;
         }
 
         input {
-            @apply 2xl:text-4xl md:text-3xl text-2xl placeholder:font-bold placeholder:tracking-tighter;
+            @apply 2xl:text-4xl md:text-3xl sm:text-lg text-sm placeholder:font-bold placeholder:tracking-tighter;
         }
 
         .copyright-box {
-            @apply 2xl:absolute w-full md:px-7 px-5 py-5 bottom-0 text-milk opacity-50 md:text-sm font-paragraph flex gap-7 md:flex-row flex-col-reverse md:justify-between justify-center items-center;
+            @apply w-full md:px-7 px-5 py-5 text-milk opacity-50 md:text-sm font-paragraph flex gap-3 md:flex-row flex-col-reverse md:justify-between justify-center items-center;
 
             p {
                 @apply text-center;

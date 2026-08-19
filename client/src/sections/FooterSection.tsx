@@ -54,42 +54,42 @@ const FooterSection = () => {
                 </a>
             </div>
 
-            <div className="mt-16 lg:mb-16 mb-10 md:px-7 px-5 flex gap-10 md:flex-row flex-col justify-between items-start text-milk font-paragraph md:text-sm font-medium relative z-10">
-                <div className="flex items-start md:gap-10 gap-5">
+            <div className="mt-8 md:mt-16 lg:mb-16 mb-8 md:px-7 px-5 flex gap-8 md:flex-row flex-col justify-between items-start text-milk font-paragraph text-xs md:text-sm font-medium relative z-10">
+                <div className="flex items-start md:gap-10 gap-4">
                     <div>
                         <p className="font-bold text-mid-brown">Our Cakes</p>
                     </div>
-                    <div>
+                    <div className="flex flex-col gap-1">
                         <a href="https://wa.me/2349015043212" className="block hover:text-mid-brown">Cakes & Parfaits</a>
                         <a href="https://wa.me/2349015043212" className="block hover:text-mid-brown">Banana Bread</a>
                         <a href="https://wa.me/2349015043212" className="block hover:text-mid-brown">Foil Cakes</a>
                         <a href="https://wa.me/2349015043212" className="block hover:text-mid-brown">Custom Orders</a>
                     </div>
-                    <div>
+                    <div className="flex flex-col gap-1">
                         <a href="https://wa.me/2349015043212" className="block hover:text-mid-brown">Bespoke Cakes</a>
                         <a href="https://wa.me/2349015043212" className="block hover:text-mid-brown">About Bisi</a>
                         <a href="https://wa.me/2349015043212" className="block hover:text-mid-brown">Contact Us: 09015043212</a>
                     </div>
                 </div>
-                <div className="md:max-w-sm">
-                    <p>
+                <div className="md:max-w-sm w-full">
+                    <p className="opacity-90 leading-relaxed">
                         Get early access to holiday collections and stay informed about pop-ups, events, and special custom offerings!
                     </p>
-                    <div className="flex justify-between items-center border-b border-[#D9D9D9] py-3 md:mt-4">
+                    <div className="flex justify-between items-center border-b border-[#D9D9D9] py-2 mt-4">
                         <input
                             type="email"
                             placeholder="Enter your email"
-                            className="w-full placeholder:font-sans placeholder:text-[#999999] text-milk"
+                            className="w-full placeholder:font-sans placeholder:text-[#999999] text-milk bg-transparent outline-none py-1"
                         />
-                        <img src={getImage("arrow.svg")} alt="arrow" />
+                        <img src={getImage("arrow.svg")} alt="arrow" className="w-4 h-4" />
                     </div>
                 </div>
             </div>
 
-            <div className="copyright-box relative z-10 flex flex-col md:flex-row justify-between items-center gap-4 pb-8">
+            <div className="copyright-box relative z-10 flex flex-col md:flex-row justify-between items-center gap-3 pb-8 text-[11px] md:text-xs">
                 <p>Copyright © 2026 Bisi's Bites - All Rights Reserved</p>
-                <p className="text-xs opacity-75">Made by blueparticlestudios@gmail.com</p>
-                <div className="flex items-center gap-7">
+                <p className="opacity-75">Made by blueparticlestudios@gmail.com</p>
+                <div className="flex items-center gap-5">
                     <p>Privacy Policy</p>
                     <p>Terms of Service</p>
                 </div>

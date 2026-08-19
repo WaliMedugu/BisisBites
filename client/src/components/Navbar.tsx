@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
                 <img
                     src={getImage("bisis_logo.png")}
                     alt="navbar-logo"
-                    className="md:w-20 w-24 nav-logo rounded-full"
+                    className="w-14 md:w-20 nav-logo rounded-full"
                 />
 
                 <div className="px-6 py-2 bg-mid-brown hover:bg-dark-brown text-center rounded-3xl transition-colors">

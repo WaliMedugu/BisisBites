@@ -57,7 +57,7 @@ const HeroSection = () => {
                     loop
                     muted
                     playsInline
-                    className="absolute inset-0 w-full h-full object-cover z-0 opacity-45 mix-blend-luminosity hidden lg:block"
+                    className="absolute inset-0 w-full h-full object-cover z-0 opacity-45 mix-blend-luminosity"
                 />
                 <div className="hero-content opacity-0 relative z-10">
                     <div className="overflow-hidden">
