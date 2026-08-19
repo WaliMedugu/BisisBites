@@ -2,13 +2,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
 import { getImage } from '../utils/media';
-import { useMediaQuery } from "react-responsive";
 
 const FooterSection = () => {
-
-    const isMobF = useMediaQuery({
-        query: "(max-width: 768px)",
-    });
 
     useGSAP(() => {
         document.fonts.ready.then(() => {
